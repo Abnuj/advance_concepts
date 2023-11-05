@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AdvanceConcepts"
         tools:targetApi="31">
         <activity
+            android:name=".CallBackInterface"
+            android:exported="false" />
+        <activity
+            android:name=".StorageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
